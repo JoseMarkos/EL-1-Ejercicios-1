@@ -7,13 +7,13 @@ public class Program
 		int operation;
 
 		Console.WriteLine("Ingrese num1: ");
-		int num1 = ReadLine();
+		int num1 = Int32.Pare(Console.ReadLine());
 		
 		Console.WriteLine("Ingrese num2: ");
-		int num2 = ReadLine();
+		int num2 = Int32.Pare(Console.ReadLine());
 		
 		Console.WriteLine("Ingrese num3: ");
-		int num3 = ReadLine();
+		int num3 = Int32.Pare(Console.ReadLine());
 
 		operation = num1 * num2 * num3;
 
