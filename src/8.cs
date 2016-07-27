@@ -8,10 +8,10 @@ public class Program
 
 		Console.WriteLine("Ingrese numero: ");
 		int num = Int32.Parse(Console.ReadLine ());
-
-    for (int i; i <= table.Lengdth; i++)
+    
+    for (int i = 1; i <= table.Length; i++)
     {
-      Console.WriteLine(num + "*" + table[i] + "=" + num * table[i]);
+      Console.WriteLine(num + " * " + table[i] + " = " + (num * table[i]));
     }
 	}
 }
