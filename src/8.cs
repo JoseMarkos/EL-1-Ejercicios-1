@@ -2,8 +2,8 @@ using System;
 
 public class Program
 {
-	public static void Main()
-	{
+  public static void Main()
+  {
 	  int[] table = new int[10];
     int	tableLength = table.Length;
     Console.WriteLine("Ingrese numero: ");
