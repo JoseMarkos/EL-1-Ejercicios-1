@@ -9,7 +9,7 @@ public class Program
 		
 		Console.WriteLine("Ingrese numero: ");
 		int num = Int32.Parse(Console.ReadLine ());
-		
+    
     for (int i=0; i < tableLength; i++)
     	{
         table[i] = i + 1;
