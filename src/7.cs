@@ -12,6 +12,7 @@ public class Program
 
 		Console.WriteLine("Ingrese numero1: ");
 		int num1 = Int32.Parse(Console.ReadLine ());
+
 		Console.WriteLine("Ingrese numero2: ");
 		int num2 = Int32.Parse(Console.ReadLine ());
 
