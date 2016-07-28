@@ -6,7 +6,6 @@ public class Program
 	{
 	  int[] table = new int[10];
     int	tableLength = table.Length;
-    
     Console.WriteLine("Ingrese numero: ");
     int num = Int32.Parse(Console.ReadLine ());
     
