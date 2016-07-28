@@ -4,7 +4,7 @@ public class Program
 {
   public static void Main()
   {
-	  int[] table = new int[10];
+    int[] table = new int[10];
     int	tableLength = table.Length;
     Console.WriteLine("Ingrese numero: ");
     int num = Int32.Parse(Console.ReadLine ());
@@ -14,5 +14,5 @@ public class Program
       table[i] = i + 1;
       Console.WriteLine(num + " * " + table[i] + " = " + (num * table[i]));
     }
-	}
+  }
 }
